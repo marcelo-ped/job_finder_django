@@ -31,8 +31,8 @@ This is a job board web application built with **Django**. It allows users to se
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/job-finder.git
-cd job-finder
+git clone https://github.com/marcelo-ped/job_finder_django.git
+cd job_finder_django
 ```
 
 ### 2. Build and start the containers
