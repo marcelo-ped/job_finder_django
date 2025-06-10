@@ -5,6 +5,7 @@ services:
     build: .
     command: gunicorn job_finder_site.wsgi:application --bind 0.0.0.0:8000
     volumes:
+      - ./app.db:/app/app.db 
       - static_volume:/app/staticfiles
     expose:
       - "8000"
